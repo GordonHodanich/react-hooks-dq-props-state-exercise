@@ -12,7 +12,7 @@ const offspring = [
   {
     id: 3,
     name: "Maxwell",
-    hobby: "let you down",
+    hobby: "Let you down",
   },
 ];
 

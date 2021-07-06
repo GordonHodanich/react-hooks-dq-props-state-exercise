@@ -4,6 +4,7 @@ import BabyHog from "./BabyHog";
 import offspring from "../data.js"
 
 function MasterHog() {
+
   const [eyeColor, setEyeColor] = useState("blue");
 
   function handleChangeEyeColor(e) {
@@ -17,7 +18,6 @@ const babies = offspring.map((baby) => (
  hobby={baby.hobby}
  eyeColor={eyeColor}
 />
-
 ))
 
   return (
